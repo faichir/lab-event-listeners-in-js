@@ -27,7 +27,7 @@ function displayKeyPress(event) {
 function displayUserInput() {
   const input = document.getElementById('textInput');
   const display = document.getElementById ('textInputDisplay');
-  display.textContent = `User Input: ${input.value}`;
+  display.textContent = `Pressed : ${input.value}`;
 }
 // Attach Event Listeners
 function setupEventListeners() {
